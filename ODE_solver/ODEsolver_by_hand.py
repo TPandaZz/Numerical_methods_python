@@ -69,7 +69,7 @@ plt.plot(t, u, label = "Exact solution exp^x")
 plt.plot(t_2, u_2, label = "Forward Euler, t = 0.2", linestyle="", marker="+") 
 plt.plot(t_3, u_3, label = "Forward Euler, t = 0.4", linestyle="", marker="+") 
 plt.legend() 
-plt.title("Simple line plot")
+plt.title("Solution for Simple ODE")
 plt.xlabel("x-axis")
 plt.ylabel("y-axis")
 
